@@ -6,6 +6,10 @@ func main() {
 
 	firstExam := 98
 	secondExam := 80
+	//TODO
+	//golang dilinde değişken ve fonksiyon isimlerinin büyük harfle başlaması özel bir durumdur
+	// camelCase yöntemi en ideal kullanım biçimidir
+	// tüm değişken ve fonksiyon isimlerinde camelCase yöntemini uygulayalım
 	Average := takeTheAverage(firstExam, secondExam)
 	receivedDocument(Average)
 	println(Average)
